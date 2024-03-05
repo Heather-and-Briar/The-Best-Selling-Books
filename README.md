@@ -1,6 +1,12 @@
-# The-Best-Selling-Books
+# Самые продаваемые книги
 
-Использование следующих статистических методов для исследования данных о популярности книг:
+В работе исследуются данные о популярности/продажах книг из следующих источников:
+- датасеты [best-selling-books](https://www.kaggle.com/datasets/drahulsingh/best-selling-books) и [Best Books (10k) Multi-Genre Data](https://www.kaggle.com/datasets/ishikajohari/best-books-10k-multi-genre-data)
+- информация с сайта [Goodreads](https://www.goodreads.com/).
+
+Подробности см. в разделе "Особенности данных" файла `Bestsellers.html`. 
+
+Для исследования данных используются следующие методы:
 1. Апроксимация распределений с помощью ядерных оценок плотности
 2. Анализ данных с помощью графиков
    - cdplot
@@ -46,7 +52,7 @@
 11. Дисперсионный анализ
 12. Регрессионные модели
 
-В работе использованы датасеты [best-selling-books](https://www.kaggle.com/datasets/drahulsingh/best-selling-books), [Best Books (10k) Multi-Genre Data](https://www.kaggle.com/datasets/ishikajohari/best-books-10k-multi-genre-data) и информация с сайта [Goodreads](https://www.goodreads.com/). Подробности см. в разделе <<Особенности данных>> файла `Bestsellers.html`. 
+
 
 
 ## License
