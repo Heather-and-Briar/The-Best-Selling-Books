@@ -1,5 +1,19 @@
 # Самые продаваемые книги
 
+Исследование влияния различных характеристик книг (язык оригинала, жанры, дата первой публикации и др.) на их популярность и объём продаж.
+
+## Источники данных
+
+В работе используются данные из следующих источников:
+- датасеты [best-selling-books](https://www.kaggle.com/datasets/drahulsingh/best-selling-books) и [Best Books (10k) Multi-Genre Data](https://www.kaggle.com/datasets/ishikajohari/best-books-10k-multi-genre-data)
+- информация с сайта [Goodreads](https://www.goodreads.com/).
+
+Подробности подготовки данных см. в разделе "Особенности данных" файла `Bestsellers.html`. Итоговые датасеты, использованные в работе, см. в папке `Code and Datasets` (файлы `best-selling-books-upgrade.csv` и `goodreads-data-upgrade.csv` соответственно).
+
+
+
+## использованные методы
+
 Для исследования данных используются следующие методы:
 1. Апроксимация распределений с помощью ядерных оценок плотности
 2. Анализ данных с помощью графиков
@@ -49,16 +63,8 @@
 
 Все методы дублируются на `R` и `Python` (также указаны все найденные отличия в работе методов на этих языках).
 
-Результаты работы находятся в файле `Bestsellers.html`. Исходный код (`Bestsellers.pynb`) находится в папке `Code and Datasets`.
+Результаты работы находятся в файле `Bestsellers.html`, а исходный код - в `Bestsellers.pynb` (см. папку `Code and Datasets`).
 
-
-## Источники данных
-
-В работе исследуются данные о популярности, продажах и др. характеристик книг из следующих источников:
-- датасеты [best-selling-books](https://www.kaggle.com/datasets/drahulsingh/best-selling-books) и [Best Books (10k) Multi-Genre Data](https://www.kaggle.com/datasets/ishikajohari/best-books-10k-multi-genre-data)
-- информация с сайта [Goodreads](https://www.goodreads.com/).
-
-Подробности подготовки данных см. в разделе "Особенности данных" файла `Bestsellers.html`. Итоговые датасеты, использованные в работе, см. в папке `Code and Datasets` (файлы `best-selling-books-upgrade.csv` и `goodreads-data-upgrade.csv` соответственно).
 
 
 ## License
@@ -67,8 +73,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-## Как связаться
+## Contact
 
-Гореленкова Анастасия\
+Гореленкова Анастасия (Gorelenkova Anastasia)\
 &emsp; telegram: [@a_gorelenkova](https://t.me/a_gorelenkova)\
 &emsp; email: a.gorelenkova@yandex.ru
